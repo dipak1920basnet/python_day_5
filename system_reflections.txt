@@ -1,0 +1,21 @@
+1️⃣ Why are functions critical for large programs?
+=> Large program comes with long scripts, same logic to be used multiple times
+with functions we can give name to a logic and call that logic without re-writing or copy pasting the code. 
+It will also make the state tracable 
+it makes debugging easier 
+it makes the code modular 
+it makes the code managable 
+
+2️⃣ Why should functions have one responsibility?
+=> we name the functions and if that functions has multiple responsibilities then it becomes hard to reuse again and again as small chunk of logic might be needed but with multiple responsibilities the resuablility decreases as resuablility is the main point of the functions. 
+
+3️⃣ What problems arise when functions become too large?
+=> it becomes harder to manage 
+=> difficult to reuse 
+=> multiple responsibilities in a single functions
+=> harder to debug
+
+4️⃣ How do functions improve debugging?
+=> since the functions has a single responsibilities if the error occurs then it becomes easier to trace the source of error. 
+=> track the state changes 
+=> change in one functions can change the logic for all where the function is called. 
