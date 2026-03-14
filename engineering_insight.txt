@@ -1,0 +1,6 @@
+A common beginner mistake:
+100+ lines in one scripts
+
+a better design would be a many small functions. 
+
+with functions we can make our code testable and debugable. 
