@@ -1,0 +1,25 @@
+in program debug_one.py the issue is with syntax error via indentation error
+we can fix it by giving indent like this: 
+
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)
+
+
+
+In program second_bug.py 
+the issue is that the functions does not return any thing 
+the state variable result remains unused 
+the result will print None
+
+Fixes: 
+we can fix this by returning the result variable like this: 
+
+def multiply(a, b):
+    result = a * b
+    return result
+
+print(multiply(4, 5))
+
