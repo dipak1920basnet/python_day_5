@@ -4,3 +4,5 @@ A common beginner mistake:
 a better design would be a many small functions. 
 
 with functions we can make our code testable and debugable. 
+
+software engineering is the art of decomposing the problems into functions. 
