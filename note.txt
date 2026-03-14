@@ -1,0 +1,30 @@
+Day 5 — Functions: Building Reusable Logic
+
+with the growth of scale in programs the script becomes unmanagle 
+this is solve with functions. 
+
+with functions we can:
+repeat the Logic
+isolate bugs 
+build a modular systems.
+organize the program code. 
+
+
+A functions is a name given to a certain block of code. 
+
+Function is important to eliminate the repeated logic. 
+
+functions acts as a core software patterns: 
+INPUT → PROCESS → OUTPUT
+
+
+Program architecture: 
+The large systems are the networks of functions. 
+example: 
+
+main()
+ ├── read_file()
+ ├── process_data()
+ └── print_results()
+
+where each functions are assigned single responsibilities. 
